@@ -5136,7 +5136,9 @@ white-space: nowrap;
         line-height: 3.0rem;
         background: url(../images/icon/bannergr_bg.png) no-repeat left 9px;
     }
-
+    .text_in .ddList00 li{
+        background: url(../images/icon/bannergr_bg.png) no-repeat left 9px;
+    }
     .special_main .wraq_header,
     .special_main .header,
     .special_main .union_top {
