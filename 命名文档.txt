@@ -1,0 +1,22 @@
+棉花所页面
+
+index.html         首页
+
+survey_list.html   研究所概况-所简介
+
+survey_setup.html  研究所概况-机构设置
+
+successive_sld.html研究所概况-历任领导
+
+sld.html           研究所概况-现任所领导
+
+sld_details.html   研究所概况-现任所领导简介
+
+talent_team.html   人才队伍-创新团队
+
+team_details.html  人才队伍-创新团队 -简介
+
+article.html       文章页
+
+new_list.html      列表页
+
