@@ -269,6 +269,9 @@ html[xmlns] .slides {
     color: #fff;
     width: 100%;
     text-indent: 12px;
+    overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
 }
 
 .flex-control-nav {

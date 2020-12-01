@@ -1411,6 +1411,8 @@ margin-bottom: 3%;
     border: 0;
     margin-top: 3%;
     padding: 0;
+    color: #333;
+    font-weight: normal;
 }
 .item_imgtit .infoBoxs:hover .infoBtns {
     background: #fff;
@@ -2085,6 +2087,10 @@ margin-bottom: 3%;
 
 .special_main .footer_bom .sydw {
     left: 13%;
+}
+.footer_all .footer_bom{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .special_footer .footer {
@@ -4694,7 +4700,7 @@ white-space: nowrap;
         right: 30px;
         z-index: 9;
         display: block;
-        width: 20px;
+        width: 16px;
         height: 16px;
         background: url(../images/icon/dwicontb.png) no-repeat;
         background-size: cover;
@@ -5829,11 +5835,26 @@ white-space: nowrap;
     .public_display{
         padding: 0;
     }
-
+    .details h3{
+        font-size: 1.9rem;
+        line-height: 3.0rem;
+    }
 
 }
 
 @media (max-width: 320px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer_bom p {
+        width: 77%;
+        margin: 0 auto;
+    }
+    .footer_bom .sydw {
+        top: 3px;
+        left: -8px;
+    }
     .union_top .logo {
         left: 0;
         width: 64%;
