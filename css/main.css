@@ -4972,6 +4972,10 @@ white-space: nowrap;
         top: 55px;
         border-top: 1px solid #eee;
     }
+    .cxtd_box img {
+        margin: 1% auto 3%;
+        width: 100%;
+    }
 
 
 }
@@ -4993,7 +4997,7 @@ white-space: nowrap;
         padding: 3% 2% 3%;
     }
     .gz02 li{
-        width: 48%;
+        width: 47%;
         margin-right: 12px;
         height: 64px;
         line-height: 64px;
@@ -5029,9 +5033,11 @@ white-space: nowrap;
 
     
     .gz02 li span {
-        background: #167cc4 url(../images/icon/itemicon01.jpg) no-repeat 6px 10px;
-        padding-left: 22px;
+        background: #167cc4 url(../images/icon/itemicon01.jpg) no-repeat 6px 16px;
+        background-size: 30px;
+        padding-left: 28px;
     }
+
     .flexslider .til_slides{
         text-indent: 0;
     }
@@ -5105,7 +5111,7 @@ white-space: nowrap;
     .tableft_in .ddList00 li {
         height: 36px;
         line-height: 36px;
-        background: url(../images/icon/n_yuan.png) no-repeat left 13px;
+        background: url(../images/icon/bannergr_bg.png) no-repeat left 13px;
     }
 
     .special_main .wraq_header,
@@ -5654,7 +5660,6 @@ white-space: nowrap;
     .submenu a {
         padding: 1% 2% 1% 52px;
     }
-
     .list-title .menuNav {
         top: 16px;
     }
