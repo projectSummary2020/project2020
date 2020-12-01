@@ -4419,14 +4419,14 @@ white-space: nowrap;
     }
     .text_in .ddList00 li{
         height: auto;
-        background: url(../images/icon/bannergr_bg.png) no-repeat left 9px;
+        background: url(../images/icon/bannergr_bg.png) no-repeat left 12px;
         line-height: 3.0rem;
     }
     .tableft_in .ddList00 li {
         margin-top: 6px;
         height: auto;
         line-height: 3.0rem;
-        background: url(../images/icon/bannergr_bg.png) no-repeat left 9px;
+        background: url(../images/icon/bannergr_bg.png) no-repeat left 12px;
     }
     .ddList00 li a {
         padding-left: 18px;
