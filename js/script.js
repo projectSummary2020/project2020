@@ -1,3 +1,12 @@
+// $(function() {  经过显示隐藏
+// 	$('#nav ul li').find('.minfoWrap').hide();
+// 	$('#nav ul li').hover(function() {
+// 		$(this).find('.minfoWrap').fadeIn(100);
+// 	}, function() {
+// 		$(this).find('.minfoWrap').fadeOut(50);
+// 	});
+// });
+
 //搜索点击弹出效果
 function SerMax(){
     $('#btn_ser').click(function(){
@@ -13,13 +22,13 @@ $(window).resize(function(){
 			var scrollTop = $(window).scrollTop();
 			if(scrollTop > 180){  //卷曲高度
 				$('.wraq_header').addClass('current');
-				// $("#nav ul > li").unbind("mouseenter").unbind("mouseleave");
+				 $("#nav ul > li").unbind("mouseenter").unbind("mouseleave");
 				}
 				
 			else{
 				$('.wraq_header').removeClass('current');
-				// nav();
-				// $("#nav ul > li").bind("mouseenter").bind("mouseleave");
+				nav();
+				$("#nav ul > li").bind("mouseenter").bind("mouseleave");
 	
 				}
 		});
@@ -32,6 +41,7 @@ $(window).resize(function(){
 	newsImgHeight();
 
 	})
+
 
 //12.移动端顶部点击弹出下拉菜单
 function Menu(menu,main){
