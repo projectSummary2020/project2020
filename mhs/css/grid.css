@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+
+html{font-size:62.5%;-webkit-text-size-adjust:none;
+}
+html {-webkit-text-size-adjust:100%;-ms-text-size-adjust: 100%;}
+body,html{
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #333;
+}
+
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* p{
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #666;
+  line-height: 28px;
+} */
+p{
+  color: #333;
+  line-height: 28px;
+}
+img{
+  margin: 0 auto;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  resize: none;
+  border: none;
+  vertical-align: middle;
+  *font-size: 100%;
+  outline: none;
+}
+input::-ms-clear {
+  display: none;
+}
+input::input-placeholder {
+  color: #333;
+}
+input::-webkit-input-placeholder {
+  color: #333;
+}
+input:-moz-placeholder {
+  color: #333;
+}
+input::-moz-placeholder {
+  color: #333;
+}
+input:-ms-input-placeholder {
+  color: #333;
+}
+textarea::textarea-placeholder {
+  color: #333;
+}
+textarea::-webkit-textarea-placeholder {
+  color: #333;
+}
+textarea:-moz-placeholder {
+  color: #333;
+}
+textarea::-moz-placeholder {
+  color: #333;
+}
+textarea:-ms-textarea-placeholder {
+  color: #333;
+}
+body {
+  overflow-x: hidden;
+  background: #fff;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  background: #fff;
+  font: 16px/30px "微软雅黑", "Arial Narrow", HELVETICA;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  font: 16px/30px;
+}
+p {
+  color: #333;
+  font: 16px/30px;
+}
+a:visited {
+  color: #333;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+/* html{
+  font-size:55%;
+} */
+.dropdown-menu ul li{
+  text-align: center;
+}
