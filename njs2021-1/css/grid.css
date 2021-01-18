@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+
+html{font-size:62.5%;-webkit-text-size-adjust:none;
+}
+html {-webkit-text-size-adjust:100%;-ms-text-size-adjust: 100%;}
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+
+  margin: 0;
+  padding: 0;
+}
+/*清除内外边距*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #333;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+  border: 0 none;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* p{
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #666;
+  line-height: 28px;
+} */
+p{
+  color: #333;
+  line-height: 28px;
+}
+img{
+  margin: 0 auto;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  resize: none;
+  border: none;
+  vertical-align: middle;
+  *font-size: 100%;
+  outline: none;
+}
+input::-ms-clear {
+  display: none;
+}
+input::input-placeholder {
+  color: #333;
+}
+input::-webkit-input-placeholder {
+  color: #333;
+}
+input:-moz-placeholder {
+  color: #333;
+}
+input::-moz-placeholder {
+  color: #333;
+}
+input:-ms-input-placeholder {
+  color: #333;
+}
+textarea::textarea-placeholder {
+  color: #333;
+}
+textarea::-webkit-textarea-placeholder {
+  color: #333;
+}
+textarea:-moz-placeholder {
+  color: #333;
+}
+textarea::-moz-placeholder {
+  color: #333;
+}
+textarea:-ms-textarea-placeholder {
+  color: #333;
+}
+body {
+  /* overflow-x: hidden; */
+  background: #fff;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  background: #fff;
+  font: 16px/30px "微软雅黑", "Arial Narrow", HELVETICA;
+}
+a {
+  color: #333;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+p {
+  color: #333;
+  /* font: 16px/30px; */
+}
+a:visited {
+  color: #333;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+/* html{
+  font-size:55%;
+} */
+
+/* 隐藏 居中 */
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
+
+
+
+/*文字隐藏,省略号*/
+.ti,
+.te {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ti {
+    text-indent: -999em;
+}
+
+.te {
+    text-overflow: ellipsis;
+}
+
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}

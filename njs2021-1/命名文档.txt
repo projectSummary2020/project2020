@@ -1,0 +1,44 @@
+农经所页面
+
+index.html                  首页
+
+institute_article.html      本所概况-所况简介
+
+institute_zc_article.html   本所概况-所长致辞
+
+institute_lr_sld.html       本所概况-历任领导
+
+institute_sld.html          本所概况-现任领导
+
+institute_details.html      本所概况-领导详情页
+
+institute_team.html         本所概况-人才队伍
+
+institute_Organization.html 本所概况-组织机构
+
+new_list.html               新闻资讯-本所新闻
+
+
+
+
+science_innovate.html       科学研究-创新工程
+
+science_article.html        科学研究-创新工程-简介
+
+science_achievements.html   科学研究-科研成果
+
+science_awards.html         科学研究-获奖成果
+
+agriculture_prize
+
+.html      农业部奖
+
+tutor_article.html          研究生教育-导师简介
+
+tutor_details.html          导师详情页
+
+article.html                文章页
+
+
+
+
